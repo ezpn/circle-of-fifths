@@ -1,7 +1,7 @@
 body {
-	--dark: #000;
-	--gap: 1.5rem;
-	padding: var(--gap) unset;
+  --dark: #000;
+  --gap: 1.5rem;
+  padding: var(--gap) unset;
 }
 
 .container {
@@ -59,14 +59,14 @@ body {
 }
 
 .cf {
-	aspect-ratio: 1;
-	margin-block: var(--gap) 0;
-	width: calc(85vw - (2 * var(--gap)));
+  aspect-ratio: 1;
+  margin-block: var(--gap) 0;
+  width: calc(85vw - (2 * var(--gap)));
 }
 
 .cf-arcs {
-	transform: rotate(-15deg);
-	transform-origin: 50% 50%;
+  transform: rotate(-15deg);
+  transform-origin: 50% 50%;
   cursor: pointer;
 }
 
@@ -80,54 +80,54 @@ body {
 }
 
 .cf-flat-1 {
-	transform: translate(20px, -2.5px);
+  transform: translate(20px, -2.5px);
 }
 
 .cf-flat-2 {
-	transform: translate(27px, -7.5px);
+  transform: translate(27px, -7.5px);
 }
 
 .cf-flat-3 {
-	transform: translate(34px, -1px);
+  transform: translate(34px, -1px);
 }
 
 .cf-flat-4 {
-	transform: translate(41px, -5.5px);
+  transform: translate(41px, -5.5px);
 }
 
 .cf-flat-5{
-	transform: translate(48px, 1px);
+  transform: translate(48px, 1px);
 }
 
 .cf-sharp-1 {
-	transform: translate(20px, -7.5px);
+  transform: translate(20px, -7.5px);
 }
 
 .cf-sharp-2 {
-	transform: translate(27px, -3px);
+  transform: translate(27px, -3px);
 }
 
 .cf-sharp-3 {
-	transform: translate(34px, -9px);
+  transform: translate(34px, -9px);
 }
 
 .cf-sharp-4 {
-	transform: translate(41px, -4.5px);
+  transform: translate(41px, -4.5px);
 }
 
 .cf-sharp-5 {
-	transform: translate(48px, 0.5px);
+  transform: translate(48px, 0.5px);
 }
 
 .cf-sharp-6{
-	transform: translate(55px, -6px);
+  transform: translate(55px, -6px);
 }
 
 .cf use {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .cf [baseline-shift="super"] {
-	font-size: 60%;
+  font-size: 60%;
 }
 
