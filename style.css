@@ -1,0 +1,133 @@
+body {
+	--dark: #000;
+	--gap: 1.5rem;
+	padding: var(--gap) unset;
+}
+
+.container {
+  min-width: 500px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white-key {
+  width: 40px;
+  height: 200px;
+  border-radius: 8px;
+  border-color: #bbb;
+  background-color: #fefefe;
+  display: inline-block;
+  box-shadow: 1px 1px 3px #bbb;
+  margin: 0 1px 0 0;
+}
+
+.white-key:active {
+  background-color: #ddd;
+  box-shadow: 1px 1px 1px #bbb;
+}
+
+.black-key {
+  width: 28px;
+  height: 140px;
+  border-radius: 4px;
+  border-color: #222;
+  background-color: #000;
+  display: inline-block;
+  box-shadow: 1px 1px 2px #bbb;
+  z-index: 2;
+  position: absolute;
+  margin-left: -16px;
+}
+
+.black-key:active {
+  border-color: #222;
+  background-color: #555;
+}
+
+.keyboard {
+  padding: 25px 0 0 0;
+}
+
+.white-key.highlighted {
+  background-color: hsl(192, 67%, 89%);
+}
+
+.black-key.highlighted {
+  background-color: hsl(193, 100%, 21%);
+}
+
+.cf {
+	aspect-ratio: 1;
+	margin-block: var(--gap) 0;
+	width: calc(85vw - (2 * var(--gap)));
+}
+
+.cf-arcs {
+	transform: rotate(-15deg);
+	transform-origin: 50% 50%;
+  cursor: pointer;
+}
+
+.cf-arcs path {
+  fill: hsl(186, 50%, 96%);
+  stroke: hsl(193, 66%, 86%);
+}
+
+.cf-arcs:hover path {
+  fill: hsl(192, 66%, 91%);
+}
+
+.cf-flat-1 {
+	transform: translate(20px, -2.5px);
+}
+
+.cf-flat-2 {
+	transform: translate(27px, -7.5px);
+}
+
+.cf-flat-3 {
+	transform: translate(34px, -1px);
+}
+
+.cf-flat-4 {
+	transform: translate(41px, -5.5px);
+}
+
+.cf-flat-5{
+	transform: translate(48px, 1px);
+}
+
+.cf-sharp-1 {
+	transform: translate(20px, -7.5px);
+}
+
+.cf-sharp-2 {
+	transform: translate(27px, -3px);
+}
+
+.cf-sharp-3 {
+	transform: translate(34px, -9px);
+}
+
+.cf-sharp-4 {
+	transform: translate(41px, -4.5px);
+}
+
+.cf-sharp-5 {
+	transform: translate(48px, 0.5px);
+}
+
+.cf-sharp-6{
+	transform: translate(55px, -6px);
+}
+
+.cf use {
+	pointer-events: none;
+}
+
+.cf [baseline-shift="super"] {
+	font-size: 60%;
+}
+
